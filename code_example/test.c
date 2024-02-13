@@ -11,5 +11,6 @@ int main(int argc, char *argv[])
     printf("%zu\n", sizeof(long long));
     printf("%zu\n", sizeof(float));
     printf("%zu\n", sizeof(double));
+    getchar();
     return 0;
 }
