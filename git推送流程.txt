@@ -1,0 +1,32 @@
+一、新建仓库推送【须在github上先创建】
+1.终端进入需要上传的文件夹
+
+2.建立本地仓库
+git init
+
+3. 添加READEME.md文件
+用于解释说明项目
+
+4.提交-附带提交信息
+git commit -m 'first commit'
+
+5.创建本地分支main
+git branch -M main
+
+6.与github仓库建立链接
+git remote add origin https://github.com/Th5200/python_-.git
+此处链接为仓库的地址
+
+7.推送
+git push -u origin main
+
+二、推送到已经存在的仓库
+1. 与仓库建立链接
+git remote add origin https://github.com/Th5200/python_-.git
+此处链接为仓库的地址
+
+2.选择main分支
+git branch -M main
+
+3.推送
+git push -u origin main
